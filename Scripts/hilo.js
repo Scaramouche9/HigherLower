@@ -76,7 +76,7 @@ let guesses = [];
   // REMOVE LATER
   console.log(guess);
 
-  if (guess == guesses.values) {
+  if (guesses.includes(guess)) {
     message.innerHTML = `You already guessed that! Don't worry, we won't count that one.`;
   } else if (guess == answer) {
     record(guess);
