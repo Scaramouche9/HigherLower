@@ -44,7 +44,7 @@ let guesses = [];
     message.innerHTML = `You already guessed that! Don't worry, we won't count that one.`;
   } else if (guess == answer) {
     record(guess);
-    message.innerHTML = `You got it! It took you ${guesses.length} tries and your guesses were ${guesses.toString()}.`;
+    message.innerHTML = `You got it! It took you ${guesses.length} tries and your guesses were ${guesses.join(', ')}.`;
   } else if (guess < answer && guess > 0) {
     record(guess);
     message.innerHTML = "No, try a higher number."
