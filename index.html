@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- My styles -->
+    <link rel="stylesheet" href="Styles/hilo.css">
+
+    <title>Higher Lower Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Let's play Higher Lower!</h1>
+      <p id="instruct"></p>
+      <form>
+        <div>
+          <label>Your guess:</label>
+          <input type="text" id="guess" name="guess">
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary" onclick="compare('guess')">Guess</button>
+        </div>
+      </form>
+      <p id="message"></p>
+    </div>
+
+  <!-- My JS -->
+  <script src="Scripts/functions.js"></script>
+  <script src="Scripts/hilo.js"></script>
+	
+  <!-- Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
