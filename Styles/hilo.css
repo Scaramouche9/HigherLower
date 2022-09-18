@@ -1,0 +1,14 @@
+body {
+  color: forestgreen;
+  background-color: lavender;
+}
+
+#container {
+  text-align: center;
+  padding-top: 15em;
+}
+
+.btn {
+  margin: 1em;
+  background-color: forestgreen;
+}
