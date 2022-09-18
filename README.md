@@ -1,6 +1,8 @@
 # HigherLower
 
-# Title: Higher-Lower, a Number Game
+# Title:
+
+Higher-Lower, a Number Game
 
 # Project Description:
 
